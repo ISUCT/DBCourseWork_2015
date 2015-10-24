@@ -7,114 +7,114 @@
 #Мега-таблица
 
 MineTypes:
-minetypes_id
-typename
-picture
-radius
+minetypes_id,
+typename,
+picture,
+radius,
 
 Mine:
-mine_id
-type_id
-latitude
-longtitude
-value
+mine_id,
+type_id,
+latitude,
+longtitude,
+value,
 
 Race:
-race_id
-name
-picture
+race_id,
+name,
+picture,
 
 Abilities:
-abilities_id
-name
-picture
+abilities_id,
+name,
+picture,
  
 Type:
-type_id
-name
+type_id,
+name,
 
 TypeAbilities:
-typeabilities_id
-type_id
-abilities_id
+typeabilities_id,
+type_id,
+abilities_id,
 
 RaceAbilities:
-raceabilities_id
-race_id
-abilities_id
-value
+raceabilities_id,
+race_id,
+abilities_id,
+value,
 
 UnitAbilities:
-unitabilities_id
-unit_id
-abilities_id
-value
+unitabilities_id,
+unit_id,
+abilities_id,
+value,
 
 Unit:
-unit_id
-name
-picture
-type_id
-race_id
+unit_id,
+name,
+picture,
+type_id,
+race_id,
 
 user:
-user_id
-user_name
-e-mail
-password
+user_id,
+user_name,
+e-mail,
+password,
 
 place:
-place_id
-time
-latitude
-longitude
-player_id
+place_id,
+time,
+latitude,
+longitude,
+player_id,
 
 playerAbilities:
-playerabilities
-player_id
-ability_id
-value
+playerabilities,
+player_id,
+ability_id,
+value,
 
 equipment:
-equipment_id
-name
+equipment_id,
+name,
 
 TYPE:
-type_id
-name
+type_id,
+name,
 
 player:
-player_id
-player_name
-race_id
-type_id
-radius
+player_id,
+player_name,
+race_id,
+type_id,
+radius,
 
 playerDress:
-playerdress_id
-player_id
-equipment_id
+playerdress_id,
+player_id,
+equipment_id,
 
 playerEquipment:
-playerequipment_id
-player_id
-equipment_id
-value
+playerequipment_id,
+player_id,
+equipment_id,
+value,
 
 equipmentAbilities:
-equipmentabilities
-equipment_id
-ability_id
-value
+equipmentabilities,
+equipment_id,
+ability_id,
+value,
 
 abilities:
-abilities_id
-name
-picture
+abilities_id,
+name,
+picture,
 
 race:
-race_id
-name
+race_id,
+name,
 picture
  
