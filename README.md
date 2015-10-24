@@ -10,108 +10,109 @@ MineTypes:
 minetypes_id,
 typename,
 picture,
-radius,
+radius
 
 Mine:
 mine_id,
 type_id,
 latitude,
 longtitude,
-value,
+value
 
 Race:
 race_id,
 name,
-picture,
+pictur
 
 Abilities:
 abilities_id,
 name,
-picture,
+picture
  
 Type:
 type_id,
-name,
+name
 
 TypeAbilities:
 typeabilities_id,
 type_id,
-abilities_id,
+abilities_id
 
 RaceAbilities:
 raceabilities_id,
-race_id,
+race_id
 abilities_id,
-value,
+value
 
 UnitAbilities:
 unitabilities_id,
 unit_id,
 abilities_id,
-value,
+value
 
 Unit:
 unit_id,
 name,
 picture,
 type_id,
-race_id,
+race_id
 
 user:
 user_id,
 user_name,
 e-mail,
-password,
+password
 
 place:
 place_id,
 time,
 latitude,
 longitude,
-player_id,
+player_id
 
 playerAbilities:
 playerabilities,
 player_id,
 ability_id,
-value,
+value
 
 equipment:
 equipment_id,
-name,
+name
 
 TYPE:
 type_id,
-name,
+name
 
 player:
 player_id,
 player_name,
 race_id,
 type_id,
-radius,
+radius
 
 playerDress:
 playerdress_id,
 player_id,
-equipment_id,
+equipment_id
 
 playerEquipment:
 playerequipment_id,
 player_id,
 equipment_id,
-value,
+value
+
 
 equipmentAbilities:
 equipmentabilities,
 equipment_id,
 ability_id,
-value,
+value
 
 abilities:
 abilities_id,
 name,
-picture,
+picture
 
 race:
 race_id,
