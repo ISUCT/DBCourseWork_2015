@@ -38,9 +38,10 @@ DBCourseWork_2015
 Мегатаблица : 
 
 
-itemId, itemType, itemBrand, itemModel, itemPrice, itemDescription
-availability, dateReceipt, dataSale, dateManufacture, periodGuarantee
+itemId, itemType, itemBrand, itemModel, itemPrice, itemDescription,
+availability, dateReceipt, dataSale, dateManufacture, periodGuarantee,
 sellerId, sellerName
+
 itemType: typeId, typeName
 
 TableAcc:
