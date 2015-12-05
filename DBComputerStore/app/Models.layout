@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <ModelGrid cursor="0" data="qModels" name="modelGrid" parent="view" prefHeight="180px" prefWidth="340px" rowsHeight="20">
+    <AnchorsPaneConstraints height="180px" left="30px" top="20px" width="340px"/>
+    <ServiceGridColumn name="colService" resizable="true"/>
+    <ModelGridColumn field="model_id" name="colModel_id" title="colModel_id" width="102px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="model_name" name="colModel_name" title="colModel_name" width="102px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="model_desc" name="colModel_desc" title="colModel_desc" width="101px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+  </ModelGrid>
+  <Button cursor="0" name="btnSave" parent="view" prefHeight="30px" prefWidth="100px" text="Save">
+    <AnchorsPaneConstraints bottom="40px" height="30px" left="260px" width="100px"/>
+  </Button>
+  <Button cursor="0" name="btnAdd" parent="view" prefHeight="30px" prefWidth="100px" text="Add">
+    <AnchorsPaneConstraints bottom="40px" height="30px" left="30px" width="100px"/>
+  </Button>
+  <Button cursor="0" name="btnDelete" parent="view" prefHeight="30px" prefWidth="100px" text="Delete">
+    <AnchorsPaneConstraints bottom="40px" height="30px" left="140px" width="100px"/>
+  </Button>
+</layout>

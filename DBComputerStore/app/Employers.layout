@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <ModelGrid cursor="0" data="qEmployers" name="modelGrid" parent="view" prefHeight="160px" prefWidth="370px" rowsHeight="20">
+    <AnchorsPaneConstraints height="160px" left="10px" right="20px" top="20px"/>
+    <ServiceGridColumn name="colService" resizable="true"/>
+    <ModelGridColumn field="s_name" name="colS_name" title="фамилия" width="84px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="f_name" name="colF_name" title="Имя" width="84px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="t_name" name="colT_name" title="Отчество" width="84px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn name="column" title="column" width="83px">
+      <ModelFormattedField/>
+    </ModelGridColumn>
+  </ModelGrid>
+  <Button cursor="0" name="btnSave" parent="view" prefHeight="30px" prefWidth="100px" text="Save">
+    <AnchorsPaneConstraints height="30px" right="10px" top="200px" width="100px"/>
+  </Button>
+  <Button cursor="0" name="btnAdd" parent="view" prefHeight="30px" prefWidth="100px" text="Add">
+    <AnchorsPaneConstraints height="30px" left="170px" top="200px" width="100px"/>
+  </Button>
+  <Button cursor="0" name="btnDelete" parent="view" prefHeight="30px" prefWidth="100px" text="Delete">
+    <AnchorsPaneConstraints height="30px" left="40px" top="200px" width="100px"/>
+  </Button>
+</layout>
