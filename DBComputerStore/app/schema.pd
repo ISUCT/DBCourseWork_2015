@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel datasource="null">
-  <fieldsEntity entityHeight="88" entityIconified="false" entityId="144871794484602" entityLocationX="-14" entityLocationY="236" entityWidth="168" tableName="models"/>
-  <fieldsEntity entityHeight="89" entityIconified="false" entityId="144871831363658" entityLocationX="750" entityLocationY="89" entityWidth="212" tableName="prod_types"/>
+  <fieldsEntity entityHeight="88" entityIconified="false" entityId="144871794484602" entityLocationX="14" entityLocationY="238" entityWidth="168" tableName="models"/>
+  <fieldsEntity entityHeight="89" entityIconified="false" entityId="144871831363658" entityLocationX="463" entityLocationY="134" entityWidth="212" tableName="prod_types"/>
   <fieldsEntity entityHeight="104" entityIconified="false" entityId="144871842939403" entityLocationX="24" entityLocationY="447" entityWidth="170" tableName="stock"/>
-  <fieldsEntity entityHeight="104" entityIconified="false" entityId="144861824603599" entityLocationX="0" entityLocationY="0" entityWidth="174" tableName="employee"/>
+  <fieldsEntity entityHeight="104" entityIconified="false" entityId="144861824603599" entityLocationX="14" entityLocationY="5" entityWidth="174" tableName="employee"/>
   <fieldsEntity entityHeight="88" entityIconified="false" entityId="144861886605133" entityLocationX="215" entityLocationY="7" entityWidth="204" tableName="pos_helds"/>
-  <fieldsEntity entityHeight="142" entityIconified="false" entityId="144871871715609" entityLocationX="349" entityLocationY="296" entityWidth="201" tableName="journal"/>
+  <fieldsEntity entityHeight="142" entityIconified="false" entityId="144871871715609" entityLocationX="236" entityLocationY="268" entityWidth="201" tableName="journal"/>
   <fieldsEntity entityHeight="72" entityIconified="false" entityId="144861868743632" entityLocationX="452" entityLocationY="10" entityWidth="214" tableName="positions"/>
-  <fieldsEntity entityHeight="91" entityIconified="false" entityId="144871915813883" entityLocationX="701" entityLocationY="313" entityWidth="213" tableName="operations"/>
-  <fieldsEntity entityHeight="110" entityIconified="false" entityId="144871809472624" entityLocationX="364" entityLocationY="117" entityWidth="205" tableName="products"/>
+  <fieldsEntity entityHeight="91" entityIconified="false" entityId="144871915813883" entityLocationX="463" entityLocationY="307" entityWidth="213" tableName="operations"/>
+  <fieldsEntity entityHeight="110" entityIconified="false" entityId="144871809472624" entityLocationX="219" entityLocationY="120" entityWidth="205" tableName="products"/>
 </datamodel>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="145053310011852" entityLocationX="188" entityLocationY="8" entityWidth="150" tableAlias="t1" tableName="EMPLOYEE" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="145053311901185" entityLocationX="385" entityLocationY="1" entityWidth="150" tableAlias="t" tableName="POS_HELDS" tableSchemaName=""/>
+  <relation leftEntityFieldName="empl_id" leftEntityId="145053310011852" rightEntityFieldName="empl_id" rightEntityId="145053311901185"/>
+</datamodel>

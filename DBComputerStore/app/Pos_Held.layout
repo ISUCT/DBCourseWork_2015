@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <ModelCombo cursor="0" displayField="empl_id" field="cursor.pos_helds_id" name="modelCombo" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints bottom="33px" height="27px" left="20px" width="100px"/>
+  </ModelCombo>
+  <ModelGrid cursor="0" data="qPosHeld_1" name="modelGrid" parent="view" parentField="empl_id" prefHeight="210px" prefWidth="380px">
+    <AnchorsPaneConstraints height="210px" left="10px" top="10px" width="380px"/>
+    <ServiceGridColumn name="colService"/>
+    <ModelGridColumn field="pos_helds_id" name="colPos_helds_id" title="colPos_helds_id" width="115px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="empl_id" name="colEmpl_id" title="id_работника" width="115px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="pos_id" name="colPos_id" title="colPos_id" width="115px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+  </ModelGrid>
+  <Button cursor="0" name="btnAdd" parent="view" prefHeight="30px" prefWidth="100px" text="Add">
+    <AnchorsPaneConstraints bottom="30px" height="30px" right="10px" width="100px"/>
+  </Button>
+</layout>

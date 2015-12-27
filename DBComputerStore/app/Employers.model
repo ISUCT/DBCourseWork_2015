@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <entity Name="qEmployers" Title="" entityHeight="200" entityIconified="false" entityId="144887942441264" entityLocationX="44" entityLocationY="58" entityWidth="150" queryId="qEmployers" tableName="" tableSchemaName=""/>
-  <entity Name="qPositions" Title="" entityHeight="200" entityIconified="false" entityId="144888528620205" entityLocationX="514" entityLocationY="41" entityWidth="150" queryId="qPositions" tableName="" tableSchemaName=""/>
-  <entity Name="qPosHeld" Title="" entityHeight="200" entityIconified="false" entityId="144888506565934" entityLocationX="269" entityLocationY="6" entityWidth="150" queryId="qPosHeld" tableName="" tableSchemaName=""/>
-  <referenceRelation leftEntityFieldName="empl_id" leftEntityId="144888506565934" rightEntityFieldName="empl_id" rightEntityId="144887942441264"/>
-  <referenceRelation leftEntityFieldName="pos_id" leftEntityId="144888506565934" rightEntityFieldName="pos_id" rightEntityId="144888528620205"/>
+  <entity Name="qEmployersPos" Title="" entityHeight="200" entityIconified="false" entityId="145053319829269" entityLocationX="56" entityLocationY="18" entityWidth="336" queryId="qEmployersPos" tableName="" tableSchemaName=""/>
+  <entity Name="qPositions" Title="" entityHeight="200" entityIconified="false" entityId="145053353163235" entityLocationX="544" entityLocationY="89" entityWidth="150" queryId="qPositions" tableName="" tableSchemaName=""/>
+  <referenceRelation collectionPropertyName="positions" leftEntityFieldName="pos_id" leftEntityId="145053319829269" rightEntityFieldName="pos_id" rightEntityId="145053353163235" scalarPropertyName="pos"/>
 </datamodel>

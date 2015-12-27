@@ -4,5 +4,5 @@
  * @name qPosHeld
  * @public
  */ 
-Select * 
-From POS_HELDS t1
+Select *
+From POS_HELDS AS t1
