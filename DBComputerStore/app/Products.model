@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <entity Name="qProducts" Title="" entityHeight="200" entityIconified="false" entityId="145122969723185" entityLocationX="237" entityLocationY="32" entityWidth="150" queryId="qProducts" tableName="" tableSchemaName=""/>
+  <entity Name="qProducer" Title="" entityHeight="121" entityIconified="false" entityId="145124010176786" entityLocationX="244" entityLocationY="298" entityWidth="150" queryId="qProducer" tableName="" tableSchemaName=""/>
+  <entity Name="qType" Title="" entityHeight="200" entityIconified="false" entityId="145122966790690" entityLocationX="436" entityLocationY="16" entityWidth="150" queryId="qType" tableName="" tableSchemaName=""/>
+  <entity Name="qModels" Title="" entityHeight="200" entityIconified="false" entityId="145122967298633" entityLocationX="42" entityLocationY="21" entityWidth="150" queryId="qModels" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="type_id" leftEntityId="145122969723185" rightEntityFieldName="type_id" rightEntityId="145122966790690"/>
+  <referenceRelation leftEntityFieldName="model_id" leftEntityId="145122969723185" polyline="231;107 209;107 209;62 198;62" rightEntityFieldName="model_id" rightEntityId="145122967298633"/>
+  <referenceRelation leftEntityFieldName="producer_id" leftEntityId="145122969723185" rightEntityFieldName="producer_id" rightEntityId="145124010176786"/>
+</datamodel>

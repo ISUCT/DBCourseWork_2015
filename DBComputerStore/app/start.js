@@ -6,14 +6,15 @@ require(['facade'], function (F) {
     var global = this;
     F.cacheBust(true);
     //F.export(global);
-    require('Pos_Held.js', function(Pos_Held){
-    //...
+    require('Employers_1', function(Employers_1){
+        var m = new Employers_1();
+        m.show();
     }, function(e){
         F.Logger.severe(e);
         if(global.document){
             var messageParagraph = global.document.createElement('p');
             global.document.body.appendChild(messageParagraph);
-            messageParagraph.innerHTML = 'An error occured while require(\'Pos_Held.js\'). Error: ' + e;
+            messageParagraph.innerHTML = 'An error occured while require(\'Employers_1\'). Error: ' + e;
             messageParagraph.style.margin = '10px';
             messageParagraph.style.fontFamily = 'Arial';
             messageParagraph.style.fontSize = '14pt';

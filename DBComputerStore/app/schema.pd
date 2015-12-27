@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel datasource="null">
-  <fieldsEntity entityHeight="88" entityIconified="false" entityId="144871794484602" entityLocationX="14" entityLocationY="238" entityWidth="168" tableName="models"/>
-  <fieldsEntity entityHeight="89" entityIconified="false" entityId="144871831363658" entityLocationX="463" entityLocationY="134" entityWidth="212" tableName="prod_types"/>
-  <fieldsEntity entityHeight="104" entityIconified="false" entityId="144871842939403" entityLocationX="24" entityLocationY="447" entityWidth="170" tableName="stock"/>
-  <fieldsEntity entityHeight="104" entityIconified="false" entityId="144861824603599" entityLocationX="14" entityLocationY="5" entityWidth="174" tableName="employee"/>
-  <fieldsEntity entityHeight="88" entityIconified="false" entityId="144861886605133" entityLocationX="215" entityLocationY="7" entityWidth="204" tableName="pos_helds"/>
-  <fieldsEntity entityHeight="142" entityIconified="false" entityId="144871871715609" entityLocationX="236" entityLocationY="268" entityWidth="201" tableName="journal"/>
-  <fieldsEntity entityHeight="72" entityIconified="false" entityId="144861868743632" entityLocationX="452" entityLocationY="10" entityWidth="214" tableName="positions"/>
-  <fieldsEntity entityHeight="91" entityIconified="false" entityId="144871915813883" entityLocationX="463" entityLocationY="307" entityWidth="213" tableName="operations"/>
-  <fieldsEntity entityHeight="110" entityIconified="false" entityId="144871809472624" entityLocationX="219" entityLocationY="120" entityWidth="205" tableName="products"/>
+  <fieldsEntity entityHeight="88" entityIconified="false" entityId="144871794484602" entityLocationX="35" entityLocationY="150" entityWidth="168" tableName="models"/>
+  <fieldsEntity entityHeight="89" entityIconified="false" entityId="144871831363658" entityLocationX="0" entityLocationY="13" entityWidth="212" tableName="prod_types"/>
+  <fieldsEntity entityHeight="104" entityIconified="false" entityId="144871842939403" entityLocationX="293" entityLocationY="8" entityWidth="170" tableName="stock"/>
+  <fieldsEntity entityHeight="110" entityIconified="false" entityId="144861824603599" entityLocationX="282" entityLocationY="296" entityWidth="280" tableName="employee"/>
+  <fieldsEntity entityHeight="88" entityIconified="false" entityId="144861886605133" entityLocationX="3" entityLocationY="244" entityWidth="204" tableName="pos_helds"/>
+  <fieldsEntity entityHeight="142" entityIconified="false" entityId="144871871715609" entityLocationX="288" entityLocationY="132" entityWidth="201" tableName="journal"/>
+  <fieldsEntity entityHeight="72" entityIconified="false" entityId="144861868743632" entityLocationX="19" entityLocationY="391" entityWidth="214" tableName="positions"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="145123968641192" entityLocationX="600" entityLocationY="116" entityWidth="150" tableName="producer"/>
+  <fieldsEntity entityHeight="91" entityIconified="false" entityId="144871915813883" entityLocationX="561" entityLocationY="11" entityWidth="213" tableName="operations"/>
+  <fieldsEntity entityHeight="166" entityIconified="false" entityId="144871809472624" entityLocationX="269" entityLocationY="451" entityWidth="205" tableName="products"/>
 </datamodel>

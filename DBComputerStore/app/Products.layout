@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="260px" prefWidth="566px"/>
+  <ModelGrid cursor="0" data="qProducts" name="modelGrid" parent="view" prefHeight="200px" prefWidth="530px" rowsHeight="20">
+    <AnchorsPaneConstraints height="200px" left="10px" top="10px" width="530px"/>
+    <ServiceGridColumn name="colService" resizable="true"/>
+    <ModelGridColumn field="prod_id" name="colProd_id" title="colProd_id" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="type_id" name="colType_id" title="colType_id" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="model_id" name="colModel_id" title="colModel_id" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="price" name="colPrice" title="colPrice" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ServiceGridColumn name="colService1"/>
+    <ModelGridColumn field="prod_id" name="colProd_id1" title="colProd_id1" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="type_id" name="colType_id1" title="colType_id1" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="model_id" name="colModel_id1" title="colModel_id1" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="price" name="colPrice1" title="colPrice1" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="producer_id" name="colProducer_id" title="colProducer_id" width="75px">
+      <ModelSpin max="1.7976931348623157E308" min="-1.7976931348623157E308"/>
+    </ModelGridColumn>
+  </ModelGrid>
+</layout>
