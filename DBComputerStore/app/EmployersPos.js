@@ -1,7 +1,7 @@
 /**
  * 
  * @author dmitry
- * @module Employers
+ * @module EmployersPos
  */
 define(['orm', 'forms', 'ui'], function (Orm, Forms, Ui, ModuleName) {
     return function () {

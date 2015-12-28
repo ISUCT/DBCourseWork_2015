@@ -1,7 +1,7 @@
 /**
  * 
  * @author dmitry
- * @module Employers_1
+ * @module Employers
  */
 define(['orm', 'forms', 'ui'], function (Orm, Forms, Ui, ModuleName) {
     return function () {
@@ -21,10 +21,7 @@ define(['orm', 'forms', 'ui'], function (Orm, Forms, Ui, ModuleName) {
          form.btnSave.onActionPerformed = function () {
             model.save();
         };
-        /**
-         * Add button's click event handler.
-         * @param event Event object
-         */
+
         form.btnAdd.onActionPerformed = function (event) {
             model.qEmployers.push({});
         };
@@ -32,7 +29,8 @@ define(['orm', 'forms', 'ui'], function (Orm, Forms, Ui, ModuleName) {
         form.btnDelete.onActionPerformed = function (event) {
             
                 for (var i in form.modelGrid.selected) {
-                    model.qEmployers.splice(model.qEmployers.indexOf(form.modelGrid.selected[i]), 1);
+                    model.qEmployers.splice
+                    (model.qEmployers.indexOf(form.modelGrid.selected[i]), 1);
                 }
 
             

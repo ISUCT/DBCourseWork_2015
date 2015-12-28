@@ -19,5 +19,14 @@ define(['orm', 'forms', 'ui'], function (Orm, Forms, Ui, ModuleName) {
             // TODO : place your code here
         });
         
+        
+        
+        form.button.onActionPerformed = function(){
+          P.require(["Employers"],function(Employers){
+              var empl = new Employers();
+              empl.show();
+          });
+          
+        };
     };
 });

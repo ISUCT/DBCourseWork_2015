@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
-  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="426px"/>
   <Button cursor="0" name="btnSave" parent="view" prefHeight="30px" prefWidth="100px" text="Save">
-    <AnchorsPaneConstraints height="30px" right="10px" top="200px" width="100px"/>
+    <AnchorsPaneConstraints bottom="20px" height="30px" left="150px" width="100px"/>
   </Button>
   <Button cursor="0" name="btnAdd" parent="view" prefHeight="30px" prefWidth="100px" text="Add">
-    <AnchorsPaneConstraints height="30px" left="130px" top="200px" width="100px"/>
+    <AnchorsPaneConstraints bottom="20px" height="30px" left="20px" width="100px"/>
   </Button>
   <Button cursor="0" name="btnDelete" parent="view" prefHeight="30px" prefWidth="100px" text="Delete">
-    <AnchorsPaneConstraints bottom="10px" height="30px" left="10px" width="100px"/>
+    <AnchorsPaneConstraints bottom="20px" height="30px" right="10px" width="100px"/>
   </Button>
-  <ModelCombo cursor="0" data="qPositions" displayField="pos_name" displayList="qPositions" field="cursor.pos_id" name="modelCombo" parent="view" prefHeight="27px" prefWidth="100px">
-    <AnchorsPaneConstraints bottom="23px" height="27px" right="20px" width="100px"/>
-  </ModelCombo>
-  <ModelGrid cursor="0" data="qEmployersPos" name="modelGrid" parent="view" prefHeight="180px" prefWidth="400px" rowsHeight="20">
-    <AnchorsPaneConstraints height="180px" left="0px" top="0px" width="400px"/>
+  <ModelGrid cursor="0" data="qEmployersPos" name="modelGrid" parent="view" prefHeight="210px" prefWidth="420px" rowsHeight="20">
+    <AnchorsPaneConstraints height="210px" left="0px" top="0px" width="420px"/>
     <ServiceGridColumn name="colService" resizable="true"/>
-    <ModelGridColumn field="s_name" name="colS_name" title="фамилия" width="183px">
+    <ModelGridColumn field="s_name" name="colS_name" title="фамилия" width="193px">
       <ModelFormattedField format=""/>
     </ModelGridColumn>
-    <ModelGridColumn field="pos" name="colPos_id" title="colPos_id" width="182px">
+    <ModelGridColumn field="pos" name="colPos_id" title="colPos_id" width="192px">
       <ModelCombo displayField="pos_name" displayList="qPositions"/>
     </ModelGridColumn>
   </ModelGrid>
